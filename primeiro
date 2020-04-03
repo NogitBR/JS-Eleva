@@ -15,6 +15,7 @@ let num = 0
 let tent = 0
 
 function terminado(){
+console.log('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
 console.log(`%c ________________________________________
 < = se inscreva no meu canal YuriNogit = >
  ----------------------------------------
@@ -23,7 +24,7 @@ console.log(`%c ________________________________________
             (__)\\       )\\/\\
                 ||----w |
                 ||     ||`, "font-family:monospace")
-console.log("INSIRA O COMANDO !")
-console.log("INSIRA O COMANDO !")
-console.log("INSIRA O COMANDO !")
+console.log("ESPERE TERMINAR DE CARREGAR E INSIRA O COMANDO !")
+console.log("ESPERE TERMINAR DE CARREGAR E INSIRA O COMANDO ! ")
+console.log("ESPERE TERMINAR DE CARREGAR E INSIRA O COMANDO !")
 }
