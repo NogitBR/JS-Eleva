@@ -8,8 +8,8 @@ function sleep(milliseconds) {
   } while (currentDate - date < milliseconds);
 }
 
-console.log("===== INICIANDO =======")
-sleep(1000)
+console.log("============= INICIANDO ==============")
+console.log("=== PODE ENVIAR O SEGUNDO COMANDO! ===")
 
 let num = 0 
 let tent = 0
@@ -23,7 +23,7 @@ console.log(`%c ________________________________________
             (__)\\       )\\/\\
                 ||----w |
                 ||     ||`, "font-family:monospace")
-console.log("INSIRA O COMANDO NOVAMENTE!")
-console.log("INSIRA O COMANDO NOVAMENTE!")
-console.log("INSIRA O COMANDO NOVAMENTE!")
+console.log("INSIRA O COMANDO !")
+console.log("INSIRA O COMANDO !")
+console.log("INSIRA O COMANDO !")
 }
