@@ -29,8 +29,8 @@
 
 		}
 		
-		console.log("=====  Espera pra salvar o cache (1s) ======")
-		sleep(1000)
+		console.log("=====  Espera pra salvar o cache (0.5s) ======")
+		sleep(500)
 		if (respostadea != ''){
 			if (respostadeb != ''){
 				if (respostadec != ''){
@@ -39,15 +39,18 @@
 					console.log("INICIANDO SLEEP DE 2 SEGUNDOS")
 					document.querySelector("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result > div.adaptativa__quiz__result__msg > button:nth-child(6)").click()
 					sleep(2000)
+					alert("Pode mandar o proximo, bb")
 					}
 				}else{
 					console.log("INICIANDO SLEEP DE 2 SEGUNDOS")
 					document.querySelector("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result > div.adaptativa__quiz__result__msg > button:nth-child(6)").click()
 					sleep(2000)
+					alert("Pode mandar o proximo, bb")
 				}
 		}else{
 			console.log("INICIANDO SLEEP DE 2 SEGUNDOS")
 			document.querySelector("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result > div.adaptativa__quiz__result__msg > button:nth-child(6)").click()
-			sleep(4000)
+			sleep(2000)
+			alert("Pode mandar o proximo, bb")
 		}
 		
