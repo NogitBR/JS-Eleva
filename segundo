@@ -40,18 +40,18 @@
 					console.log("INICIANDO SLEEP DE 2 SEGUNDOS")
 					document.querySelector("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result > div.adaptativa__quiz__result__msg > button:nth-child(6)").click()
 					sleep(2000)
-					alert("Pode mandar o proximo, bb")
+					terminado()
 					}
 				}else{
 					console.log("INICIANDO SLEEP DE 2 SEGUNDOS")
 					document.querySelector("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result > div.adaptativa__quiz__result__msg > button:nth-child(6)").click()
 					sleep(2000)
-					alert("Pode mandar o proximo, bb")
+					terminado()
 				}
 		}else{
 			console.log("INICIANDO SLEEP DE 2 SEGUNDOS")
 			document.querySelector("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result > div.adaptativa__quiz__result__msg > button:nth-child(6)").click()
 			sleep(2000)
-			alert("Pode mandar o proximo, bb")
+			terminado()
 		}
 		
