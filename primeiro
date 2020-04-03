@@ -13,3 +13,14 @@ sleep(1000)
 
 let num = 0 
 let tent = 0
+
+function terminado(){
+console.log(`%c ________________________________________
+< = se inscreva no meu canal YuriNogit = >
+ ----------------------------------------
+        \\   ^__^
+         \\  (oo)\\_______
+            (__)\\       )\\/\\
+                ||----w |
+                ||     ||`, "font-family:monospace")
+}
