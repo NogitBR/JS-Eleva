@@ -7,7 +7,7 @@ function sleep(milliseconds) {
     currentDate = Date.now();
   } while (currentDate - date < milliseconds);
 }
-
+console.log('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
 console.log("============= INICIANDO ==============")
 console.log("=== PODE ENVIAR O SEGUNDO COMANDO! ===")
 
