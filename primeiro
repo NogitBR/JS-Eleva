@@ -1,0 +1,15 @@
+document.querySelectorAll("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result")[0].style = 'Nogit'
+
+function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
+
+console.log("===== INICIANDO =======")
+sleep(1000)
+
+let num = 0 
+let tent = 0
