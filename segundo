@@ -4,6 +4,16 @@
 		let respostadeb = (document.querySelector("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result > div.adaptativa__quiz__result__options > div:nth-child(2) > div.adaptativa__quiz__result__option__item > div.adaptativa__quiz__result__answers > span:nth-child(2)").textContent)
 		let respostadec = (document.querySelector("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result > div.adaptativa__quiz__result__options > div:nth-child(3) > div.adaptativa__quiz__result__option__item > div.adaptativa__quiz__result__answers > span:nth-child(2)").textContent)
 		
+		if (tent == 3){
+			tent ++
+		} else if (tent == 5) {
+			tent ++
+		} else if (tent == 7) {
+			tent ++
+		} else { 
+			tent = tent
+		}
+		
 		
 		
 		
@@ -37,21 +47,21 @@
 					num += 10
 					alert('TA TUDO JA CERTO, PODE ENVIAR!')
 					} else {
-					console.log("INICIANDO SLEEP DE 1 SEGUNDOS")
+					console.log("INICIANDO SLEEP DE 2 SEGUNDOS")
 					document.querySelector("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result > div.adaptativa__quiz__result__msg > button:nth-child(6)").click()
-					sleep(1000)
+					sleep(2000)
 					terminado()
 					}
 				}else{
-					console.log("INICIANDO SLEEP DE 1 SEGUNDOS")
+					console.log("INICIANDO SLEEP DE 2 SEGUNDOS")
 					document.querySelector("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result > div.adaptativa__quiz__result__msg > button:nth-child(6)").click()
-					sleep(1000)
+					sleep(2000)
 					terminado()
 				}
 		}else{
-			console.log("INICIANDO SLEEP DE 1 SEGUNDOS")
+			console.log("INICIANDO SLEEP DE 2 SEGUNDOS")
 			document.querySelector("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result > div.adaptativa__quiz__result__msg > button:nth-child(6)").click()
-			sleep(1000)
+			sleep(2000)
 			terminado()
 		}
 		
