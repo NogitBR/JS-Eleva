@@ -37,21 +37,21 @@
 					num += 10
 					alert('TA TUDO JA CERTO, PODE ENVIAR!')
 					} else {
-					console.log("INICIANDO SLEEP DE 2 SEGUNDOS")
+					console.log("INICIANDO SLEEP DE 1 SEGUNDOS")
 					document.querySelector("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result > div.adaptativa__quiz__result__msg > button:nth-child(6)").click()
-					sleep(2000)
+					sleep(1000)
 					terminado()
 					}
 				}else{
-					console.log("INICIANDO SLEEP DE 2 SEGUNDOS")
+					console.log("INICIANDO SLEEP DE 1 SEGUNDOS")
 					document.querySelector("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result > div.adaptativa__quiz__result__msg > button:nth-child(6)").click()
-					sleep(2000)
+					sleep(1000)
 					terminado()
 				}
 		}else{
-			console.log("INICIANDO SLEEP DE 2 SEGUNDOS")
+			console.log("INICIANDO SLEEP DE 1 SEGUNDOS")
 			document.querySelector("#adaptativa > section > div > div > div.hidden-xs.adaptativa__quiz__result > div.adaptativa__quiz__result__msg > button:nth-child(6)").click()
-			sleep(2000)
+			sleep(1000)
 			terminado()
 		}
 		
