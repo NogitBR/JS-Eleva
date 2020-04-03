@@ -23,4 +23,7 @@ console.log(`%c ________________________________________
             (__)\\       )\\/\\
                 ||----w |
                 ||     ||`, "font-family:monospace")
+console.log("INSIRA O COMANDO NOVAMENTE!")
+console.log("INSIRA O COMANDO NOVAMENTE!")
+console.log("INSIRA O COMANDO NOVAMENTE!")
 }
